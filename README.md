@@ -4,12 +4,12 @@
 
 **A Neuro-Symbolic Standard for Auditable, Self-Healing Agent Ecosystems.**
 
-([https://img.shields.io/badge/License-MIT-yellow.svg](https://www.google.com/search?q=https://img.shields.io/badge/License-MIT-yellow.svg))]([https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT))
-([https://img.shields.io/badge/Status-Experimental-red.svg](https://www.google.com/search?q=https://img.shields.io/badge/Status-Experimental-red.svg))]()
-([https://img.shields.io/badge/Architecture-Neuro--Symbolic-blueviolet.svg](https://www.google.com/search?q=https://img.shields.io/badge/Architecture-Neuro--Symbolic-blueviolet.svg))]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Status: Experimental](https://img.shields.io/badge/Status-Experimental-red.svg)]()
+[![Architecture: Neuro-Symbolic](https://img.shields.io/badge/Architecture-Neuro--Symbolic-blueviolet.svg)]()
 
 > **The Philosophy:** Current AI models are Black Boxes. Aletheia is a **Glass Box**. It separates *Generation* (The Narrator) from *Judgment* (The Philosopher) to create agents that are safe, auditable, and capable of recursive self-improvement.
-> *Read the origin story and architectural thesis in(VISION.md).*
+> *Read the origin story and architectural thesis in [VISION.md](VISION.md).*
 
 ---
 
@@ -55,20 +55,20 @@ The system does not just log errors; it learns from them.
 * Spacy (`en_core_web_sm`)
 * Ollama (for local inference) or OpenAI API Key
 
-### Installationbash
+### Installation
 
-git clone [https://github.com/TrialBlazer23/Aletheia-Framework.git](https://www.google.com/search?q=https://github.com/TrialBlazer23/Aletheia-Framework.git)
+```bash
+git clone https://github.com/TrialBlazer23/Aletheia-Framework.git
 cd Aletheia-Framework
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
-
 ```
 
 ### Running the Prototype
+
 To launch the `Nexus-Mind` console:
 ```bash
 python main.py
-
 ```
 
 ---
@@ -91,6 +91,4 @@ We are looking for architects, ethicists, and engineers to help build the **Glas
 
 ## 📜 License
 
-This project is licensed under the MIT License - see the(LICENSE) file for details.
-
-```
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
