@@ -1,0 +1,9 @@
+- **For [[The Archivist]]:**
+    - [[SDR_Knowledge_Graph_Element]]: A flexible structure that can define nodes (entities, concepts) and edges (relationships), including their properties and metadata. This will be complex but is central to the Archivist's role.
+    - [[SDR_Data_Query]]: A structured format for other models to request information from the Archivist.
+- **For [[The Philosopher]]:**
+    - [[SDR_Abstract_Concept_Representation]]: Fields for [[UID]], name, textual definition, related concepts, properties, examples/counter-examples.
+    - [[SDR_Ethical_Guideline]]: A formal representation of an ethical rule or principle, including its conditions of applicability and rationale.
+- **For [[The Diagnostician]]:**
+    - [[SDR_Performance_Log_Entry]]: Containing [[Timestamp]], [[Monitored_Model_UID]], [[Metric_Name_UID]], [[Metric_Value]], [[Status_Code]].
+    - [[SDR_Anomaly_Instance_Report]]: Detailing a detected anomaly, including observed behavior, expected behavior, and any initial diagnostic data.

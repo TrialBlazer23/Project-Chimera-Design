@@ -1,0 +1,9 @@
+- [[SDR_Mission_Definition]]:
+    - Fields: [[Mission_UID]], [[Mission_Name_Text_UID]] (links to an [[SDR_Text_Block]]), [[Goal_Description_SDR_UID]] (links to a detailed SDR goal structure), [[Priority_Level]], [[Applicable_Ethical_Guidelines_UIDs]] (links to Philosopher's relevant SDRs), [[Operational_Constraints_SDR_UID]].
+    - Purpose: To allow the Nexus-Mind to formally define and communicate high-level missions.
+- [[SDR_Task_Definition]]:
+    - Fields: [[Task_UID]], [[Parent_Mission_UID_Optional]], [[Assigned_To_Model_UID]], [[Task_Instructions_SDR_UID]], [[Input_Data_References_SDR_UIDs]] (list of UIDs pointing to necessary data), [[Expected_Output_Descriptor_SDR_UID]], [[Deadline_Timestamp_Optional]].
+    - Purpose: For the Nexus-Mind to delegate specific, actionable tasks.
+- [[SDR_Resource_Allocation_Request]]:
+    - Fields: [[Requesting_Task_UID]] or [[Requesting_Model_UID]], [[Resource_Type_Code]] (e.g., [[CPU_Cycles]], [[Memory_Bytes]], [[KnowledgeBase_Access]]), [[Amount_Requested]], [[Urgency_Flag]].
+    - Purpose: For managing resource allocation by the Nexus-Mind.
